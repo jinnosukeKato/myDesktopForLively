@@ -1,0 +1,17 @@
+{
+  "AppVersion": "0.0.1",
+  "Title": "Ini's Desktop",
+  "Thumbnail": "",
+  "Preview": "",
+  "Desc": "Lively wallpaper example project",
+  "Author": "InI",
+  "License": "MIT",
+  "Contact": "https://github.com/jinnosukeKato/",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": " --audio --system-nowplaying",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 0
+}
