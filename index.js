@@ -9,9 +9,11 @@ function livelyCurrentTrack(data) {
 
 function livelyPropertyListener(name, val) {
   switch(name) {
-    case "borderColor":{
-      const clock = document.getElementById("clock");
-      clock.style.borderColor = val;
+    case "borderColor": {
+      const border_elm = document.querySelectorAll(".bordercolor");
+      border_elm.forEach(elem => {
+        elem.style.borderColor = val;
+      });
       break;
     }
   }
