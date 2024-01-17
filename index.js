@@ -30,4 +30,4 @@ function main() {
   clock_update();
 }
 
-setInterval(main, 1);
+setInterval(main, 10);
