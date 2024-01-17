@@ -1,0 +1,7 @@
+{
+  "borderColor": {
+    "text": "Border color",
+    "type": "color",
+    "value": "#000000"
+  }
+}

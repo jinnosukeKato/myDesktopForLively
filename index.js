@@ -7,6 +7,16 @@ function livelyCurrentTrack(data) {
   }
 }
 
+function livelyPropertyListener(name, val) {
+  switch(name) {
+    case "borderColor":{
+      const clock = document.getElementById("clock");
+      clock.style.borderColor = val;
+      break;
+    }
+  }
+}
+
 const weekDay = {
   0: "Monday",
   1: "Tuesday",
