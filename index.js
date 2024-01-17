@@ -22,6 +22,11 @@ function livelyPropertyListener(name, val) {
         elem.style.borderColor = val;
       });
       break;
+    };
+    case "iconPanelWidth": {
+      const icon_panel = document.getElementById("icons_panel");
+      icon_panel.style.width = val + "vw";
+      break;
     }
   }
 }

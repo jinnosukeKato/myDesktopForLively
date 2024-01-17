@@ -1,7 +1,17 @@
 {
   "borderColor": {
     "text": "Border color",
+    "help": "Control the color of panel border line",
     "type": "color",
     "value": "#000000"
+  },
+  "iconPanelWidth": {
+    "text": "Icon panel width",
+    "help": "Control the width of icon panel",
+    "max": 100,
+    "min": 0,
+    "step": 5,
+    "type": "slider",
+    "value": 20
   }
 }
