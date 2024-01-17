@@ -13,17 +13,19 @@
   </head>
   <body>
     <div id="container">
-      <div id="icons"></div>
+      <div id="icons_panel" class="panel"></div>
 
-      <div id="player">
-        <div id="indicator">
-          <p class="indicator_elm">Now playing: <span id="title"></span></p>
-          <p class="indicator_elm">Artist: <span id="artist"></span></p>
+      <div id="player_panel" class="panel">
+        <div id="player">
+          <div id="indicator">
+            <p class="indicator_elm">Now playing: <span id="title"></span></p>
+            <p class="indicator_elm">Artist: <span id="artist"></span></p>
+          </div>
+          <div id="thumbnail_frame"><img id="thumbnail" /></div>
         </div>
-        <div id="thumbnail_frame"><img id="thumbnail" /></div>
       </div>
 
-      <div id="clock_frame"><span id="clock_data"></span></div>
+      <div id="clock_panel" class="panel"><span id="clock_data"></span></div>
     </div>
     <script src="index.js" charset="utf-8"></script>
   </body>
