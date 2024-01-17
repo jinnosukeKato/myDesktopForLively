@@ -2,6 +2,13 @@
   display: grid;
   grid-template-rows: 50vh 50vh;
   grid-template-columns: 35vw 1fr;
+
+  background-image: url("./background/01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 .panel {
@@ -82,17 +89,18 @@
 #clock_panel {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  background: #88f;
 }
 
 #clock {
   margin: 10%;
   padding: 3%;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+
   border-radius: 20px;
   border: solid;
-  border-width: 6px;
-  border-color: palevioletred;
-  background: orange;
+  border-width: 2px;
+  border-color: rgb(255, 19, 43);
 
   display: flex;
   flex-wrap: wrap;
@@ -103,6 +111,7 @@
 .clock_elm {
   width: 100vb;
   text-align: center;
+  color: azure;
   font-family: "Nico Moji", monospace;
 }
 
