@@ -24,8 +24,8 @@ function livelyPropertyListener(name, val) {
       break;
     };
     case "iconPanelWidth": {
-      const icon_panel = document.getElementById("icons_panel");
-      icon_panel.style.width = val + "vw";
+      const icon_panel = document.getElementById("container");
+      icon_panel.style.gridTemplateColumns = `${val}vw 1fr`;
       break;
     }
   }

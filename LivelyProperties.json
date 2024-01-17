@@ -7,10 +7,10 @@
   },
   "iconPanelWidth": {
     "text": "Icon panel width",
-    "help": "Control the width of icon panel",
-    "max": 100,
+    "help": "Control the percentage of icon panel to window [%]",
+    "max": 35,
     "min": 0,
-    "step": 5,
+    "step": 1,
     "type": "slider",
     "value": 20
   }
