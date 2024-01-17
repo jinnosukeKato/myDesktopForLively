@@ -1,7 +1,7 @@
 function livelyCurrentTrack(data) {
   const livelyJSON = JSON.parse(data);
-  document.getElementById("title").textContent = (livelyJSON != null) ? livelyJSON.Title : "None";
-  document.getElementById("artist").textContent = (livelyJSON != null) ? livelyJSON.Artist : "None";
+  document.getElementById("indicator_title").textContent = (livelyJSON != null) ? livelyJSON.Title : "None";
+  document.getElementById("indicator_artist").textContent = (livelyJSON != null) ? livelyJSON.Artist : "None";
   if (livelyJSON.Thumbnail != null) {
     document.getElementById("thumbnail").src = "data:image/png;base64," + livelyJSON.Thumbnail;
   }

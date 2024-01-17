@@ -50,6 +50,7 @@
   justify-content: center;
 }
 #thumbnail {
+  padding: 2%;
   height: 25vh;
 }
 
