@@ -52,6 +52,7 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 2fr;
 
+  height: 25vh;
   margin-inline: 10%;
 }
 
@@ -96,6 +97,8 @@
     rgba(0, 0, 0, 0.0) 40px
   );
   background-color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
   backdrop-filter: blur(10px);
 
   display: flex;
@@ -104,7 +107,17 @@
   justify-content: center;
 }
 #indicator_title {
+  animation: marquee 5s infinite linear 0.1s both;
   font-size: 50px;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(150%);
+  }
+
+  80% {
+    transform: translateX(0%);
+  }
 }
 .indicator_elm {
   color: azure;

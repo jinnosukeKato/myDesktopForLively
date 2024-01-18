@@ -2,9 +2,9 @@ function livelyCurrentTrack(data) {
   const livelyJSON = JSON.parse(data);
   let title = "None"
   if(livelyJSON.Title != null) {
-    if(livelyJSON.Title.length >= 10)
-      title = livelyJSON.Title.substring(0, 10) + "...";
-    else
+    // if(livelyJSON.Title.length >= 10)
+    //   title = livelyJSON.Title.substring(0, 10) + "...";
+    // else
       title = livelyJSON.Title;
   }
   document.getElementById("indicator_title").textContent = title;
